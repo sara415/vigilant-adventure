@@ -1,0 +1,52 @@
+.shadowbox{
+    width: 15em;
+    border: 1px solid black;
+    box-shadow: rgb(0, 0, 0) 8px 8px 8px;
+    padding-top: 8px 12px;
+    background-image: linear-gradient();
+    border: 2px solid black;
+    position: absolute;
+    left: 45%;
+    background-color: floralwhite;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+}
+
+body{
+    background-image:url(background.jpg);
+}
+
+#box1 {
+    width: 500px;
+    height: 420px;
+    background-color: wheat;
+    border: 2px solid black;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.btn{
+    background: floralwhite;
+    width: 115px;
+    height: 30px;
+    border: 3px solid black;
+    font-size: 20px;
+    transition: .4s linear;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.03);
+}
+.btn:active{
+    transform: scale(1.03);
+}
